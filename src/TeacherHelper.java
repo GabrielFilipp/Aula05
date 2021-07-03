@@ -61,7 +61,9 @@ public class TeacherHelper {
 			case 3:
 
 				switch (gerador.nextInt(7)) {
-
+				default:
+					System.out.println("Teu poder é mais de 8000!");
+					break;
 				case 1:
 					System.out.println("Você é um professor incrível!");
 					break;
